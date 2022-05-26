@@ -10521,7 +10521,16 @@ textarea.form-control-lg {
 
 .container > .row:nth-child(1){ 
   text-align: center;
-}   
+} 
+
+.container:nth-child(2) > div > div { 
+  margin-left: 20px;
+  margin-right: 20px;
+}  
+
+.container:nth-child(2) > div > div:nth-child(3)  { 
+  margin-top: 50px;
+}  
 
 #myTab a {
   color: grey; 
@@ -10537,9 +10546,26 @@ textarea.form-control-lg {
 }
 
 .btn{ 
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 25px;
-}   
+}
+
+.btn-primary{ 
+  padding-left: 35px;
+  padding-right: 35px;
+}  
+
+img {
+     margin-top: 40px;
+  } 
+
+h1 {
+     margin-top: 30px;
+}
+
+h3 {
+     margin-top: 40px;
+}
 
 @media only screen and (max-width: 600px) {
   img {

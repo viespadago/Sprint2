@@ -10543,3 +10543,10 @@ li{
   margin-right: 5px;
   margin-bottom: 5px;
 }   
+
+@media only screen and (max-width: 600px) {
+  .container:nth-child(2) > .row > .col > img {
+    height: auto;
+    max-width: 100%;
+  }
+}  
