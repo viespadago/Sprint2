@@ -10549,4 +10549,69 @@ li{
     height: auto;
     max-width: 100%;
   }
+}
+
+.styles .row{ 
+  margin-bottom: 30px;
+}
+
+.styles .container > .row:nth-child(1){ 
+  text-align: center;
+} 
+
+.styles .container:nth-child(2) > div > div { 
+  margin-left: 20px;
+  margin-right: 20px;
+}  
+
+.styles .container:nth-child(2) > div > div:nth-child(3)  { 
+  margin-top: 50px;
+}  
+
+#myTab a {
+  color: grey; 
+}
+
+#myTab li.active a{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #FA5959;
+  border-bottom-width: 5px;
+  color: black;
+}
+
+#myTab a:hover {
+  border: none;
+  color: #FA5959;
+}
+
+#navbarSupportedContent a:hover {
+  color: #FA5959;
+}
+
+#footer a:hover {
+  color: #FA5959;
+}
+
+.styles .btn{ 
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.styles .btn-primary{ 
+  padding-left: 35px;
+  padding-right: 35px;
+}  
+
+.styles img {
+     margin-top: 40px;
+  } 
+
+.styles h1 {
+     margin-top: 30px;
+}
+
+.styles h3 {
+     margin-top: 40px;
 }  
