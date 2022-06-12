@@ -10545,9 +10545,21 @@ li{
 }   
 
 @media only screen and (max-width: 600px) {
-  .container:nth-child(2) > .row > .col > img {
+  img {
     height: auto;
     max-width: 100%;
+  }
+  .styles .col{
+   width: 100%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .styles .col{
+   width: 50%;
+  }
+  h4 {
+    font-size: 14px;
   }
 }
 
